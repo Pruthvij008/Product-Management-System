@@ -72,3 +72,34 @@ The project includes a seed script for importing product data from a JSON file i
 - **How to Run**:
   ```bash
   node data/import.js --import
+
+
+## Demo API Endpoints
+
+You can test the following API endpoints for demonstration purposes. These endpoints provide various functionalities related to product transactions, statistics, and data visualization.
+
+### 1. Get All Transactions
+- **Endpoint**: [GET](http://localhost:3000/api/v1/products/transactions)
+- **Description**: Retrieves a list of all transactions with pagination. By default, it returns the first page with a predefined number of items per page.
+
+### 2. Get Paginated Transactions
+- **Endpoint**: [GET](http://localhost:3000/api/v1/products/transactions?page=2&perPage=5)
+- **Description**: Retrieves a paginated list of transactions. This example retrieves the second page with 5 transactions per page. You can adjust the `page` and `perPage` query parameters to navigate through different pages of results.
+
+### 3. Search Transactions
+- **Endpoint**: [GET](http://localhost:3000/api/v1/products/transactions?search=jacket&page=1&perPage=5)
+- **Description**: Retrieves transactions filtered by the search term "jacket." This example fetches the first page with 5 results per page. You can modify the `search` parameter to find specific products.
+
+### 4. Get Product Sales Statistics
+- **Endpoint**: [GET](http://localhost:3000/api/v1/products/statistics?month=November)
+- **Description**: Retrieves sales statistics for the specified month (November). It includes total sales, sold items, and unsold items.
+
+### 5. Get Product Category Counts
+- **Endpoint**: [GET](http://localhost:3000/api/v1/products/categorycounts?month=January)
+- **Description**: Retrieves counts of products sold, grouped by category, for the specified month (January). This data can be useful for visualizing sales distribution across different product categories.
+
+### 6. Get Bar Chart Data (Price Ranges)
+- **Endpoint**: [GET](http://localhost:3000/api/v1/products/bar-chart/January)
+- **Description**: Retrieves product sales data categorized by price ranges for the specified month (January). This data can be used to generate bar charts for visual analysis of sales trends.
+
+
