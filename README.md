@@ -108,27 +108,17 @@ You can test the following API endpoints for demonstration purposes. These endpo
 
 ## Installation & Setup
 
-1. Clone the Repository
-Clone the repository to your local machine by running the following command:
--git clone https://github.com/your-username/product-management-system.git
--cd product-management-system
+- **Clone the Repository**:  
+  Clone the repository to your local machine by running the following commands:  
+  ```bash
+  git clone https://github.com/your-username/product-management-system.git
+  cd product-management-system
 
-
-
-2. Install Backend Dependencies
+-**2. Install Backend Dependencies**
 Navigate to the root directory of the cloned repository and install the necessary dependencies:
--cd product-management-system
--npm install
-3. Start the Backend Server
-Run the following command to start the backend server:
--npm start
-The backend server will run on http://localhost:3000.
+  ```bash
+  cd product-management-system
+  npm install
 
-4. Frontend Setup
-Navigate to the view directory for the frontend and install the necessary dependencies:
--cd view
--npm install
-5. Start the Frontend Server
-Run the following command to start the frontend server:
--npm start
+
 
