@@ -136,9 +136,3 @@ Navigate to the view directory for the frontend and install the necessary depend
 Run the following command to start the frontend server:
   ```bash
 npm start
-
-
-
-
-
-
