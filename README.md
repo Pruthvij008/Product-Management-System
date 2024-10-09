@@ -2,37 +2,6 @@
 
 This project is a **Product Sales Management System** built using **Node.js**, **Express**, and **MongoDB**. The system provides an API for managing product data, retrieving transaction statistics, and generating various reports, including category counts and sales data across different price ranges.
 
-## Installation and Setup
-
-To run this project locally, follow these steps:
-
-### Backend Setup
-
-1. **Install Backend Dependencies:**
-   ```bash
-   cd your-repo-name
-   npm install
-### Start the Backend Server
-
-Start the backend server by running the following command:
-```bash
-npm start
-
-### Frontend Setup
-
-1. **Navigate to the Frontend Directory:**
-   ```bash
-   cd view
-
-### Install Frontend Dependencies
-
-Run the following command to install the frontend dependencies:
-```bash
-npm install
-Once the dependencies are installed, start the frontend server by running:
-npm start
-
-
 ## Features
 
 - Retrieve a list of products, transactions, and statistics.
@@ -132,5 +101,4 @@ You can test the following API endpoints for demonstration purposes. These endpo
 ### 6. Get Bar Chart Data (Price Ranges)
 - **Endpoint**: [GET](http://localhost:3000/api/v1/products/bar-chart/January)
 - **Description**: Retrieves product sales data categorized by price ranges for the specified month (January). This data can be used to generate bar charts for visual analysis of sales trends.
-
 
